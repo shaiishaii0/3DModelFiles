@@ -1,0 +1,174 @@
+{
+    "asset": {
+        "version": "2.0",
+        "generator": "Open Asset Import Library (assimp v5.4.0)"
+    },
+    "extensionsUsed": [
+        "KHR_materials_volume",
+        "FB_ngon_encoding"
+    ],
+    "accessors": [
+        {
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 1896,
+            "type": "VEC3",
+            "max": [
+                1.2978910207748413,
+                6.752140998840332,
+                4.8260579109191895
+            ],
+            "min": [
+                -1.2978910207748413,
+                0.0,
+                -4.8260579109191895
+            ]
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 1896,
+            "type": "VEC3",
+            "max": [
+                0.9995882511138916,
+                0.994558572769165,
+                0.9802474975585938
+            ],
+            "min": [
+                -0.9995882511138916,
+                -1.0,
+                -0.9377627372741699
+            ]
+        },
+        {
+            "bufferView": 2,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 1896,
+            "type": "VEC2",
+            "max": [
+                0.9951840043067932,
+                0.9964020252227783
+            ],
+            "min": [
+                0.0034839999862015247,
+                0.006891012191772461
+            ]
+        },
+        {
+            "bufferView": 3,
+            "byteOffset": 0,
+            "componentType": 5125,
+            "count": 2844,
+            "type": "SCALAR",
+            "max": [
+                1895
+            ],
+            "min": [
+                0
+            ]
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 72048,
+            "uri": "Wolf (1)_0.bin"
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 22752,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 22752,
+            "byteLength": 22752,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 45504,
+            "byteLength": 15168,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 60672,
+            "byteLength": 11376,
+            "target": 34963
+        }
+    ],
+    "images": [
+        {
+            "uri": "textures/image_0.png"
+        }
+    ],
+    "materials": [
+        {
+            "name": "Wolves_Mat",
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 0
+                },
+                "metallicFactor": 0.0
+            }
+        }
+    ],
+    "meshes": [
+        {
+            "name": "meshes[0]",
+            "primitives": [
+                {
+                    "mode": 4,
+                    "material": 0,
+                    "indices": 3,
+                    "attributes": {
+                        "POSITION": 0,
+                        "NORMAL": 1,
+                        "TEXCOORD_0": 2
+                    }
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "name": "Wolf (1)",
+            "children": [
+                1
+            ]
+        },
+        {
+            "name": "Wolves_Mesh",
+            "mesh": 0,
+            "extras": {
+                "name": "Wolves_Mesh"
+            }
+        }
+    ],
+    "samplers": [
+        {
+            "magFilter": 9729,
+            "minFilter": 9986
+        }
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0
+            ]
+        }
+    ],
+    "textures": [
+        {
+            "source": 0,
+            "sampler": 0
+        }
+    ],
+    "scene": 0
+}
